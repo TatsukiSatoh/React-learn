@@ -6,6 +6,8 @@ import Hello from './components/hello'
 import Name from './components/Name'
 import Message from './components/Message'
 import ContainerSample from './components/ContainerSample'
+import ContextSample from './components/ContextSample'
+import UseStateSample from './components/UseStateSample'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -17,6 +19,8 @@ root.render(
     <Name />
     <Message />
     <ContainerSample />
+    <ContextSample />
+    <UseStateSample initialValue={1} />
   </React.StrictMode>
 );
 
