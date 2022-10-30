@@ -10,6 +10,7 @@ import ContextSample from './components/ContextSample'
 import UseStateSample from './components/UseStateSample'
 import UseCallback from './components/UseCallBack'
 import UseResucer from "./components/UseResucer"
+import {UseMemoSample} from './components/UseMemo'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -25,6 +26,7 @@ root.render(
     <UseStateSample initialValue={1} />
     <UseResucer initialValue={2} />
     <UseCallback />
+    <UseMemoSample />
   </React.StrictMode>
 );
 
