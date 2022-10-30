@@ -8,6 +8,7 @@ import Message from './components/Message'
 import ContainerSample from './components/ContainerSample'
 import ContextSample from './components/ContextSample'
 import UseStateSample from './components/UseStateSample'
+import UseResucer from "./components/UseResucer"
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -21,6 +22,7 @@ root.render(
     <ContainerSample />
     <ContextSample />
     <UseStateSample initialValue={1} />
+    <UseResucer initialValue={2} />
   </React.StrictMode>
 );
 
