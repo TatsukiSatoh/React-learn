@@ -13,6 +13,7 @@ import UseResucer from "./components/UseResucer"
 import {UseMemoSample} from './components/UseMemo'
 import {Clock} from "./components/UseEffect"
 import {Parent} from "./components/UseContext"
+import {Input} from "./components/CustomHook"
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -31,6 +32,7 @@ root.render(
     <UseMemoSample />
     <Clock />
     <Parent />
+    <Input />
   </React.StrictMode>
 );
 
