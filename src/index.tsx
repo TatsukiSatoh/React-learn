@@ -11,6 +11,7 @@ import UseStateSample from './components/UseStateSample'
 import UseCallback from './components/UseCallBack'
 import UseResucer from "./components/UseResucer"
 import {UseMemoSample} from './components/UseMemo'
+import {Clock} from "./components/UseEffect"
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -27,6 +28,7 @@ root.render(
     <UseResucer initialValue={2} />
     <UseCallback />
     <UseMemoSample />
+    <Clock />
   </React.StrictMode>
 );
 
