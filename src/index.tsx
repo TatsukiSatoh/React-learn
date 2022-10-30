@@ -8,6 +8,7 @@ import Message from './components/Message'
 import ContainerSample from './components/ContainerSample'
 import ContextSample from './components/ContextSample'
 import UseStateSample from './components/UseStateSample'
+import UseCallback from './components/UseCallBack'
 import UseResucer from "./components/UseResucer"
 import reportWebVitals from './reportWebVitals';
 
@@ -23,6 +24,7 @@ root.render(
     <ContextSample />
     <UseStateSample initialValue={1} />
     <UseResucer initialValue={2} />
+    <UseCallback />
   </React.StrictMode>
 );
 
